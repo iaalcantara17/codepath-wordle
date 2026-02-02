@@ -20,6 +20,8 @@ The following **required** functionality is completed:
 Here's a walkthrough of implemented user stories:
 
 <img src='![Recording 2026-02-02 180500](https://github.com/user-attachments/assets/2e2d853e-5396-489a-b114-5f51a8958d6d)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Recording 2026-02-02 180500](https://github.com/user-attachments/assets/7ede3a17-dc78-4c54-99f1-e4a8e49b3644)
+
 
 ## Notes
 
