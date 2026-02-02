@@ -19,7 +19,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='PASTE_GIF_LINK_HERE' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='![Recording 2026-02-02 180500](https://github.com/user-attachments/assets/2e2d853e-5396-489a-b114-5f51a8958d6d)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
