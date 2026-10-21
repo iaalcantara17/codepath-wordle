@@ -1,43 +1,25 @@
-# Android Project 1 - codepath-wordle
+# codepath-wordle
 
-Submitted by: **Israel Alcantara**
+A simple Wordle-style guessing game for Android with 4-letter words and three guesses. I built it for CodePath's Android course.
 
-**codepath-wordle** is an Android app that recreates a simple version of the popular word game [Wordle](https://www.nytimes.com/games/wordle/index.html).
+![Walkthrough of a game](https://github.com/user-attachments/assets/2e2d853e-5396-489a-b114-5f51a8958d6d)
 
-Time spent: **6** hours spent in total
+## What it does
 
-## Required Features
+- The app picks a random 4-letter word from a built-in list.
+- You get three guesses. Each guess must be exactly 4 letters, A to Z.
+- After each guess the app shows it with colored letters. Green means the right letter in the right spot. Red means the letter is in the word but in a different spot. Gray means it isn't in the word.
+- The game ends when you guess the word or use all three guesses. Then it shows the answer, and the button changes to Restart for a new word.
 
-The following **required** functionality is completed:
+## Tech stack
 
-- [x] **User has 3 chances to guess a random 4-letter word**
-- [x] **After 3 guesses, user should no longer be able to submit another guess**
-- [x] **After each guess, user sees the "correctness" of the guess**
-- [x] **After all guesses are taken, the user can see the target word displayed**
+Kotlin, Android SDK (min SDK 24).
 
-## Video Walkthrough
+## How to run it
 
-Here's a walkthrough of implemented user stories:
+1. Clone the repo and open it in Android Studio.
+2. Let Gradle sync, then run the `app` configuration on an emulator or a device.
 
-![Recording 2026-02-02 180500](https://github.com/user-attachments/assets/2e2d853e-5396-489a-b114-5f51a8958d6d)
+## Limitations
 
-
-## Notes
-
-None.
-
-## License
-
-    Copyright 2026 Israel
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Guesses aren't checked against a dictionary, so any four letters count as a guess.
